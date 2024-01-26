@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Roger",
+      "last_name": "Federer",
+      "email": "roger.federer@yopmail.com",
+      "phone": "3505671234",
+      "registration_date": "2023-03-20T15:30:00"
+    },
+    {
+      "id": 2,
+      "first_name": "Novak",
+      "last_name": "Djokovic",
+      "email": "camila.test@yopmail.com",
+      "phone": "3505671235",
+      "registration_date": "2023-02-18T15:30:00"
+    },
+    {
+      "id": 3,
+      "first_name": "Rafael",
+      "last_name": "Nadal",
+      "email": "rafael.nadal@yopmail.com",
+      "phone": "3178953885",
+      "registration_date": "2023-05-01T15:30:00"
+    },
+    {
+      "id": 4,
+      "first_name": "Carlos",
+      "last_name": "Alcaraz",
+      "email": "carlos@yopmail.com",
+      "phone": "3186980123",
+      "registration_date": "2023-06-08T01:34:56.000Z"
+    }
+  ]
+}

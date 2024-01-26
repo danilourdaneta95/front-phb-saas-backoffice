@@ -1,0 +1,41 @@
+table td,
+table th {
+  padding: 12px 8px !important;
+}
+table td:has([role=checkbox]),
+table th:has([role=checkbox]) {
+  padding: 12px !important;
+}
+table td:not(:last-child),
+table th:not(:last-child) {
+  border-right: 1px solid #D6D3D1;
+  padding: 12px 8px !important;
+}
+table tr {
+  border-bottom-color: #D6D3D1 !important;
+}
+.border {
+  border: 1px solid #D6D3D1;
+}
+.justify-right {
+  justify-content: right;
+}
+* {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.filters-buttons {
+  color: #44403C;
+}
+.data-\[state\=checked\]\:bg-primary[data-state=checked] {
+  background-color: #0066FF;
+}
+.data-\[state\=checked\]\:text-primary-foreground[data-state=checked] {
+  color: hsl(var(--primary-foreground));
+}
+.bg-primary, .bg-primary:hover {
+  background-color: #0066FF;
+}
